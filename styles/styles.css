@@ -31,12 +31,11 @@
 /* header */
 .header{
   display: flex;
-  height: 600px;
+  height: 500px;
   color: white;
   flex-direction: column;
   padding: 0 100px;
-  /* background: #1F2937; */
-  background: rgb(9, 9, 139);
+  background: #1F2937;
 }
 
 .h1{
@@ -76,8 +75,8 @@
 
 .image{
   background: rgb(120, 119, 123);
-  height: 45%;
-  width: 45%;
+  height: 50%;
+  width: 50%;
   margin: 22px;
   display: flex;
   justify-content: center;
@@ -87,7 +86,7 @@
 /* section-information */
 .information{
   background: rgb(246, 248, 240);
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,14 +109,14 @@
 }
 
 .cards > .card > img{
-  width: 200px;
-  height: 200px;
-  border: 8px solid rgb(115, 97, 255);
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(115, 97, 255);
   border-radius: 32px;
 }
 
 .cards > .card > figcaption{
-  width: 200px;
+  width: 150px;
   padding: 16px;
   font-size: 18px;
   color: gray;
@@ -127,7 +126,7 @@
 .testimonial{
   background: #E5E7EB;
   display: flex;
-  height: 500px;
+  height: 400px;
 }
 
 .testimonial{
