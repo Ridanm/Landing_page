@@ -5,17 +5,15 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.header-container{
-  display: flex;
-  background: rgb(40, 40, 59);
-}
-
 .nav{
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  font-size: 1.5rem;
-  width: 95%;
+}
+
+.nav > .logo{
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .menu{
@@ -25,7 +23,7 @@
   display: flex;
   gap: 22px;
   color: rgb(163, 160, 160);
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 /* header */
@@ -35,31 +33,32 @@
   color: white;
   flex-direction: column;
   padding: 0 200px;
+  background: #1F2937;
 }
 
 .h1{
-  font-size: 5rem;
+  font-size: 48px;
+  font-weight: 900;
   margin-bottom: 0;
 }
 
 .p{
-  font-size: 2rem;
-  color: rgb(176, 174, 174);
+  font-size: 18px;
+  color: #E5E7EB;
   margin: 0;
 }
 
 .title{
   padding: 40px;
-  width: 45%;
 }
 
 .btn{
-  background:rgb(45, 128, 252);
+  background: #3882F6;
   border-radius: 12px;
   color: white;
   padding: 12px 42px;
   border: none;
-  font-size: 1.6rem;
+  font-size: 24px;
   margin-top: 16px;
 }
 
@@ -68,7 +67,7 @@
   flex: 2;
   align-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 18px;
   color: rgb(240, 240, 240);
 }
 
@@ -92,7 +91,9 @@
 }
 
 .title-information{
-  font-size: 2.5rem;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
 }
 
 .cards{
@@ -106,22 +107,22 @@
 }
 
 .cards > .card > img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border: 8px solid rgb(115, 97, 255);
   border-radius: 32px;
 }
 
 .cards > .card > figcaption{
-  width: 250px;
+  width: 200px;
   padding: 16px;
-  font-size: 1.8rem;
+  font-size: 18px;
   color: gray;
 }
 
 /* testimonial */
 .testimonial{
-  background:rgb(196, 195, 203);
+  background: #E5E7EB;
   display: flex;
   height: 700px;
 }
@@ -134,14 +135,14 @@
 
 .article{
   width: 60%;
-  font-size: 2.7rem;
   font-weight: lighter;
 }
 
 .article > .paragraph{
   font-family:  "Courier New","monospace";
+  font-size: 36px;
   font-style: italic;
-  font-weight: 500;
+  font-weight: lighter;
   transform: scale(1, 1.4)
 }
 
@@ -149,6 +150,7 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 42px;
+  font-size: 24px;
 }
 
 /* last-seciton */
@@ -172,13 +174,13 @@
 
 .our-product > .paragraph-call{
   color: white;
-  font-size: 2.5rem;
+  font-size: 36px;
   margin: 0;
 }
 
 .our-product > .paragraph-sign{
   color: rgb(202, 199, 199);
-  font-size: 1.8rem;
+  font-size: 24px;
   margin: 0;
 }
 
@@ -192,10 +194,10 @@
 .footer{
   display: flex;
   height: 150px;
-  background:rgb(19, 30, 49);
-  color: rgb(227, 222, 222);
+  background: #1F2937;
+  color: #E5E7EB;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 18px;
 }
 
