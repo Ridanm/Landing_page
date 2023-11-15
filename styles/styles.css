@@ -34,8 +34,9 @@
   height: 600px;
   color: white;
   flex-direction: column;
-  padding: 0 200px;
-  background: #1F2937;
+  padding: 0 100px;
+  /* background: #1F2937; */
+  background: rgb(9, 9, 139);
 }
 
 .h1{
