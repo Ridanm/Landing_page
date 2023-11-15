@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
 .body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Roboto"
 }
 
 .nav{
@@ -139,7 +141,6 @@
 }
 
 .article > .paragraph{
-  font-family:  "Courier New","monospace";
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
@@ -150,7 +151,8 @@
   display: flex;
   justify-content: flex-end;
   padding-right: 42px;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 900;
 }
 
 /* last-seciton */
